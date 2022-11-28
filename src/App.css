@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(27deg, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.balance {
+  width: 450px;
+  max-width: 90vw;
+  height: 85px;
+  border-radius: 20px;
+  background-color: hsl(10deg, 79%, 65%);
+  justify-content: space-between;
+  display: flex;
+}
+
+.balance-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-top: -5px;
+}
+.balance-text p {
+  padding: 5px;
+  margin-left: -13px;
+  font-size: 13px;
+}
+
+.balance-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-top: -5px;
+}
+
+.chart {
+  margin-top: 15px;
+  width: 450px;
+  max-width: 90vw;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-title {
+  padding: 30px;
+  color: hsl(25deg, 47%, 15%);
+  margin-left: -9%;
+}
+
+.chart-chart {
+  padding: 1%;
+  margin-top: 10px;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.chart-days {
+  margin-right: 12px;
+  width: 10%;
+  font-size: 12px;
+}
+
+.chart-candle {
+  position: relative;
+  margin-left: 2px;
+  width: 90%;
+  height: 20px;
+  background-color: hsl(10deg, 79%, 65%);
+  border-radius: 3px;
+}
+.chart-candle p {
+  position: absolute;
+  top: -20px;
+  display: none;
+}
+.chart-candle:hover p {
+  display: block;
+}
+
+.dayCandle {
+  background-color: rgb(118, 181, 188);
+}
+
+.chart-resume {
+  padding: 10px;
+  border-top: 1px solid hsl(27deg, 66%, 92%);
+  margin-top: 10px;
+  height: 90px;
+  width: 90%;
+  color: hsl(25deg, 47%, 15%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-resume-percentage {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+.chart-resume-percentage .percentage-text {
+  font-size: 14px;
+}
+.chart-resume-percentage .percentage {
+  margin-bottom: -7px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.chart-resume-total {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.chart-resume-total .total-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.chart-resume-total .total {
+  margin-top: 5px;
+  font-size: 35px;
+  font-weight: 600;
+}/*# sourceMappingURL=App.css.map */
