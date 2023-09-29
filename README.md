@@ -11,6 +11,6 @@ On it the user can:<br>
 The app is hosted on GitHub, and you can see it working here: https://andlukass.github.io/frontEndMentorExpenseChart<br>
 
 # demo
-<div align="center>
-<img src="https://github.com/andlukass/MarcadorDeTruco/assets/46944875/ef5f59f5-8b74-4baa-9b0b-75f45b4b5740" width="500px">
+<div align="center">
+<img src="https://github.com/andlukass/frontEndMentorExpenseChart/assets/46944875/1359824b-fb12-41be-8435-56933fd849bd"  width="500">
 </div>
